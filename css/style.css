@@ -1,1 +1,44 @@
 /* TODO: Make it awesome */
+
+header h1 {
+    color: black;
+    text-align: center;
+  }
+
+footer {
+    margin-top: 380px;
+}
+
+body {
+    background-image: url("painted.jpg");
+    background-repeat: repeat-x;
+  }
+
+  li {
+    border-style: dotted;
+  }
+
+  header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+  }
+
+  nav {
+    overflow: auto;
+    background-color: #333;
+  }
+
+  nav {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding:  16px;
+    text-decoration: none;
+    /* boarder */
+  }
+
+  #fred {
+    border: 30cm solid red; 
+  }
