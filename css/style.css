@@ -1,23 +1,42 @@
 /* TODO: Make it awesome */
 
-header h1 {
-    color: black;
-    text-align: center;
-  }
 
 footer {
     margin-top: 380px;
 }
 
 h1 {
-font-size: 50px;
+    font-size: 50px;
 }
 
 
-  #fred {
-    border: 30cm solid red; 
-  }
- 
-  h1 {
-    margin: auto;
-  }
+#fred {
+    border: 30cm solid red;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #85bd57 0%,
+            #faee13 29%,
+            #ffa513 67%,
+            #fd8a8a 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 40px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
