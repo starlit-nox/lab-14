@@ -1,5 +1,26 @@
 /* TODO: Make it awesome */
 
+body {
+    background: #d2d0b4;
+}
+
+section {
+    border: #85bd57;
+    border-width: 150px;
+}
+
+* {
+    text-align: center;
+}
+
+header {
+    padding: 100px 0px 100px 0px;
+
+}
+
+main {
+    padding: 0px 100px 0px 100px;
+}
 
 footer {
     margin-top: 380px;
@@ -14,25 +35,30 @@ h1 {
     border: 30cm solid red;
 }
 
-header h1 {
-    text-align: center;
+
+ul {
+    font-size: 40px;
+    color: #ffa513;
+}
+
+
+h1 {
     text-transform: uppercase;
     background-image: linear-gradient(-225deg,
-            #85bd57 0%,
-            #faee13 29%,
-            #ffa513 67%,
-            #fd8a8a 100%);
+            #74a64b 0%,
+            #e4d911 29%,
+            #dc8a07 67%,
+            #cf5d5d 100%);
     background-size: auto auto;
     background-clip: border-box;
     background-size: 200% auto;
     color: #fff;
     background-clip: text;
-    text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: textclip 2s linear infinite;
     display: inline-block;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 @keyframes textclip {
