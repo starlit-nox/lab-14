@@ -6,7 +6,14 @@ const table = document.getElementById('cart');
 table.addEventListener('click', removeItemFromCart);
 
 function loadCart() {
-  const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
+ const cartItems = undefined;
+  let cartString = localStorage.getItem("cart")
+  let cartObject = JSON.parse(cartString)
+  if(cartObject == undefined){
+    cartItems = []
+  }else{
+    cartItems = cartObject.cartItems
+  }
   state.cart = new Cart(cartItems);
 }
 
@@ -26,8 +33,11 @@ function showCart() {
   // TODO: Find the table body
 
   // TODO: Iterate over the items in the cart
+
   // TODO: Create a TR
-  // TODO: Create a TD for the delete link, quantity,  and the item
+  
+  // TODO: Create a TD for the delete link, quantity, and the item
+  
   // TODO: Add the TR to the TBODY and each of the TD's to the TR
 
 }
