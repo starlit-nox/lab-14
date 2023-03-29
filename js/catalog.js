@@ -42,7 +42,7 @@ function addSelectedItemToCart() {
   let newProduct = undefined;
   for (let i = 0; i < state.allProducts.length; i++) {
     if (state.allProducts[i].name == document.getElementById("items").value) {
-      let newProduct = state.allProducts[i];
+      newProduct = state.allProducts[i];
     }
   }
 
